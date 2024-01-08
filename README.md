@@ -1,27 +1,7 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Video page app
+Для запуска приложения: <br>
+1. Скачав данный файл, и находясь в корневой папке проекта, выполнить команду: **npm i**, или **npm init**.
+2. Вам также необходимо установить Json Server: **npm install json-server**.
+3. Затем запустите в терминале команду: **json-server db.json --port 5000**. Убедившись, что всё хорошо - приступать к следующему шагу.
+4. Теперь, добавив ещё одно окно в терминале и перейдя в него, выполнить команду: **npm run dev**.
+5. Вы должны увидеть подобную запись в терминале: **Local:  http://localhost:5173/**. Нажмите на эту ссылку и у вас в браузере откроется проект.
